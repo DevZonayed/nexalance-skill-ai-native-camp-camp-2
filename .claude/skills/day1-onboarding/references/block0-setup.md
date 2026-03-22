@@ -47,11 +47,13 @@ open ./
 
 로그인이 끝나면 아래 순서로 Output Style을 설정하라고 안내한다:
 
-1. Claude Code 대화창에 `/output-style` 입력
-2. 선택지에서 **Explanatory** 선택
+1. Claude Code 대화창에 `/config` 입력
+2. **Output style** 선택
+3. **Explanatory** 선택
 
 ```
-/output-style
+/config
+→ Output style 선택
 → Explanatory 선택
 ```
 
